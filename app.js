@@ -46,7 +46,6 @@ function searchListBy(properties ,value){
       arrKeys.push(i)
     }
   }
-  // console.log(arrKeys);
   for (i=0;i<arrKeys.length;i++){
     console.log(toDoLists[arrKeys[i]])
   }
@@ -74,7 +73,6 @@ function deleteList(properties,value){
     }
   }
   arrKeys = arrKeys.sort().reverse();
-  // console.log(arrKeys);
   for (i=arrKeys.length;i>0;i--){
     toDoLists.splice(arrKeys[i],1);
   }
